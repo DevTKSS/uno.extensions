@@ -4,6 +4,8 @@ uid: Uno.Extensions.Storage.Overview
 <!-- markdownlint-disable MD033 MD036-->
 # Storage Overview
 
+> **UnoFeatures:** `Storage` (add to `<UnoFeatures>` in your `.csproj`)
+
 Uno.Extensions.Storage facilitate local data storage across multiple platforms, including WebAssembly, Android, iOS, macOS, Desktop and Windows. This extension is particularly useful for applications that require secure, persistent storage of user preferences, configuration settings, and sensitive information such as tokens and credentials.
 
 **Wrapped up:** Storage feature allows you to read and write files in your app's local storage, create additional folders, like you may of the `System.IO` functionality, but with the nice benefit of being platform independent, injectable through Dependency Injection (DI) and provides you the Opportunity, to provide an `ISerializer` from [Uno.Extensions.Serialization](xref:Uno.Extensions.Serialization.Overview) to allow you to individualize the Serialization or/and get back directly the corresponding Type your App needs!
